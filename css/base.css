@@ -1,0 +1,200 @@
+.disable-hover {
+	pointer-events: none;
+}
+
+.disable-hover * {
+	pointer-events: none !important;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+input[type='submit'] {
+	-webkit-appearance: none;
+	border-radius: 0px;
+	box-shadow: none;
+	display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+input, textarea {
+	outline: none;
+}
+
+html.hidden {
+	overflow-y: hidden;
+	touch-action: none;
+}
+
+
+html {
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+/* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
+a:hover, a:active {
+  outline: none; }
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100%; }
+
+.header, .footer {
+  flex-shrink: 0; }
+
+.content {
+  flex: 1 0 auto; }
+
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif, 'PT Sans', serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+@-moz-document url-prefix() {
+  body {
+    display: flex; }
+  .header, .footer {
+    flex: auto; }
+  .content {
+    flex: auto; } 
+}
+
+.h1{
+	color: #f3f3f3;
+	font-family: "Roboto Slab";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 35px;
+}
+
+.h2{
+	color: #a8a8a8;
+	font-family: "Roboto Slab";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 35px;
+}
+
+.h3{
+	color: #4e4e4e;
+	font-family: "Roboto Slab";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.h4{
+
+	color: #4e4e4e;
+	font-family: "Roboto Condensed";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+.h4.h4-light-grey{
+	color: #6c6c6c;
+}
+
+.h5{
+color: #a8a8a8;
+font-family: "Roboto Slab";
+font-size: 13px;
+font-weight: 400;
+line-height: 1;
+}
