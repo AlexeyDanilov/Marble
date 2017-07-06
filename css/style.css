@@ -208,9 +208,9 @@ body{
 }
 
 .works__item{
-	display: inline-block;
-	width: 32%;
+	width: 32.44%;
 	margin-right: 15px;
+	float: left;
 }
 
 
@@ -228,6 +228,10 @@ body{
 
 .works__img{
 	margin-bottom: 25px;
+}
+
+.works__img img{
+	width: 100%;
 }
 
 
@@ -407,3 +411,4 @@ body{
 .footer__link--mail img{
 	margin-right: 8px;
 }
+
